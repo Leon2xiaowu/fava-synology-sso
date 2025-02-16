@@ -31,4 +31,18 @@
 
 `docker-compose.yml` 中配置sso_gateway服务通过暴露8111端口对外提供服务，可自行调整。
 
-使用中遇到问题请提交issue，看到会回复。
+## 例子🌰
+
+假设你的群晖DSM地址为: `https://nas.domain.com:5000`
+
+你的SSO服务器 URL 就应该配置为 `https://nas.domain.com:5000`
+
+在你开启OIDC后 `WELL_KNOWN_URL` 可能是 `"https://nas.domain.com:5000/webman/sso/.well-known/openid-configuration"`
+
+部署成功后fava的请求地址为：`https://nas.domain.com:8111/fava`
+
+在SSO服务器应用程序中配置的重定向URL为`https://nas.domain.com:8111/fava/callback`
+
+---
+
+**使用过程中遇到问题请提交issue，看到会回复。**
