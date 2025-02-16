@@ -1,6 +1,6 @@
 # 使用群晖SSO为Fava服务添加鉴权
 
-该仓库为使用群晖SSO服务器为本地Fava服务增加鉴权的模板，详情查看[使用说明]()。
+该仓库为使用群晖SSO服务器为本地Fava服务增加鉴权的模板，详情查看[使用说明](https://blog.hbbs.fun/2025/02/16/fava-to-nas-sso/)。
 
 ## Fava Dockerfile 配置项
 
